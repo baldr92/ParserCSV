@@ -15,7 +15,7 @@ public class InserterToDb {
     //инициализация объектов подключения
     private static Connection con;
 
-    private static void saveToDatabase(Vector dataHolder)  {
+    public void saveToDatabase(Vector dataHolder)  {
         String ssoid, ts, grp,type, subtype, url, orgid, formid, code, ltpa, sudirresponse, ymdh;
 
 

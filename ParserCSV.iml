@@ -7,17 +7,16 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.8" level="application_server_libraries" />
-    <orderEntry type="library" name="org.apache.poi:poi:3.17" level="project" />
-    <orderEntry type="library" name="org.apache.poi:poi-ooxml:3.17" level="project" />
-    <orderEntry type="library" name="org.postgresql:postgresql:9.4-1206-jdbc42" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../postgresql-42.2.4.jar!/" />
+          <root url="file://$USER_HOME$/Desktop/poi-3.17" />
         </CLASSES>
-        <JAVADOC />
+        <JAVADOC>
+          <root url="file://$USER_HOME$/Desktop/poi-3.17/docs/apidocs" />
+        </JAVADOC>
         <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/Desktop/poi-3.17" recursive="false" />
       </library>
     </orderEntry>
   </component>
